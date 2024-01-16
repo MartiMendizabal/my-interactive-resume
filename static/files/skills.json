@@ -1,0 +1,52 @@
+{
+    
+    "skills":[
+        {
+            "name":"Git",
+            "description": [
+                "University proyect",
+                "Brunching",
+                "Teamwork"
+            ]
+        },
+        {
+            "name":"Linux",
+            "description":[
+                "Shell scripting",
+                "Bash"
+            ]
+        },
+        {
+            "name":"Object-oriented paradigm",
+            "description":[
+                "Inheritance",
+                "Polymorphism",
+                "Delegation",
+                "Heuristics for Responsibility Assignment",
+                "SOLID Principles",
+                "Unit Test (JUnit)",
+                "UML"
+            ]
+        },
+        {
+            "name":"Java",
+            "description":["Streams",""]
+        },
+        {
+            "name":"Python",
+            "description":[""]
+        },
+        {
+            "name":"Data analysis",
+            "description":[""]
+        },
+        {
+            "name":"Databases design",
+            "description":[""]
+        },
+        {
+            "name":"Software Engeneering",
+            "description":[""]
+        }
+    ]
+}
