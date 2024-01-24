@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function() {
         .catch(error => console.error("Error al cargar el archivo JSON:", error));
 });
 
-// Función para crear y mostrar el modal
+
 function showSkillModal(skill) {
     const skillModal = document.createElement("div");
     skillModal.classList.add("modal", "fade");
@@ -37,13 +37,23 @@ function showSkillModal(skill) {
             <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            ${skill.description.map(paragraph => `<p>${paragraph}</p>`).join('')} 
+            ${renderSkillDescription(skill.description)} 
           </div>
         </div>
       </div>
     `;
   
-    // Mostrar el modal
+    // Show modal
     const modal = new bootstrap.Modal(skillModal);
     modal.show();
 };
+
+function renderSkillDescription(description) {
+  return description.map(item => {
+    if (item.type === "text") {
+      return `<p>${item.content}</p>`;
+    } else {
+      return `<a href="${item.url}" target="_blank">${item.content}</a>`;
+    }
+  }).join('');
+}

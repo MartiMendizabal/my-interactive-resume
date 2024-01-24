@@ -4,49 +4,66 @@
         {
             "name":"Git",
             "description": [
-                "University proyect",
-                "Brunching",
-                "Teamwork"
+                {"type":"text", "content":"University proyect"},
+                {"type":"text", "content":"Brunching"},
+                {"type":"text", "content":"Teamwork"}
             ]
         },
         {
             "name":"Linux",
             "description":[
-                "Shell scripting",
-                "Bash"
+                {"type":"text", "content":"Shell scripting"},
+                {"type":"text", "content":"Bash"}
             ]
         },
         {
             "name":"Object-oriented paradigm",
             "description":[
-                "Inheritance",
-                "Polymorphism",
-                "Delegation",
-                "Heuristics for Responsibility Assignment",
-                "SOLID Principles",
-                "Unit Test (JUnit)",
-                "UML"
+                {"type":"text", "content":"Inheritance"},
+                {"type":"text", "content":"Polymorphism"},
+                {"type":"text", "content":"Delegation"},
+                {"type":"text", "content":"Heuristics for Responsibility Assignment"},
+                {"type":"text", "content":"SOLID Principles"},
+                {"type":"text", "content":"Unit Test (JUnit)"},
+                {"type":"text", "content":"UML"}
             ]
         },
         {
             "name":"Java",
-            "description":["Streams",""]
+            "description":[
+                {"type":"text", "content":"Streams"},
+                {"type":"text", "content":"Base language in which I learned the entire object-oriented paradigm"}
+            ]
         },
         {
             "name":"Python",
-            "description":[""]
+            "description":[
+                {"type":"text", "content":"Seminar"},
+                {"type":"text", "content":"PEP-8 Rules"},
+                {"type":"text", "content":"Lambda expressions"},
+                {"type":"text", "content":"Iterators"},
+                {"type":"text", "content":"Modules and packages"},
+                {"type":"text", "content":"Exceptions"},
+                {"type":"text", "content":"Pandas"},
+                {"type":"link", "content":"Application I developed as part of a team", "url":"https://gitlab.catedras.linti.unlp.edu.ar/python2023/code/grupo27"}]
         },
         {
             "name":"Data analysis",
-            "description":[""]
+            "description":[]
         },
         {
             "name":"Databases design",
-            "description":[""]
+            "description":[
+                {"type":"text", "content":"Relational databases"},
+                {"type":"text", "content":"Conceptual, logical and physical modeling"},
+                {"type":"text", "content":"Relational algebra"},
+                {"type":"text", "content":"SQL"},
+                {"type":"text", "content":"Data security and integrity"}
+            ]
         },
         {
             "name":"Software Engeneering",
-            "description":[""]
+            "description":[]
         }
     ]
 }
