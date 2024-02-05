@@ -48,10 +48,6 @@
                 {"type":"link", "content":"Application I developed as part of a team", "url":"https://gitlab.catedras.linti.unlp.edu.ar/python2023/code/grupo27"}]
         },
         {
-            "name":"Data analysis",
-            "description":[]
-        },
-        {
             "name":"Databases design",
             "description":[
                 {"type":"text", "content":"Relational databases"},
@@ -63,7 +59,13 @@
         },
         {
             "name":"Software Engeneering",
-            "description":[]
+            "description":[
+                {"type":"text", "content":"Requirements elicitation and specification techniques"},
+                {"type":"text", "content":"Agile Methodologies"},
+                {"type":"text", "content":"SCRUM"},
+                {"type":"text", "content":"Quality of software development products and processes"},
+                {"type":"text", "content":"ISO Standard"}
+            ]
         }
     ]
 }

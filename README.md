@@ -1,5 +1,19 @@
 # my-interactive-resume
 This is a self-maneged proyect, to get hands-on with different programming languages I am familiar with.
-To execute this interactive resume, make sure that Flask is installed in your computer. You can install it with the command `pip intall Flask`.
-Then you are able to run the app with the command `python app.py`. 
-A message should appear in your console, something similar to "Running on http://127.0.0.1:5000/", you should copy that link and paste it on your web browser but do not use Ctrl+C, use Right-click + "Copy".
+
+## Prerequisites
+
+-Python 3.11.2
+-Flask
+ You can install it with the command `pip intall Flask`.
+
+ ## Instalation
+
+1. Clone this repository or download the source code.
+
+ ## Startup
+
+ 1. Open a terminal and navigate to the folder of the proyect.
+ 2. Run the application with the command `python app.py`. 
+ 3. A message should appear in the console, something similar to "Running on http://127.0.0.1:5000/"
+ 4. Copy that link and paste it on a web browser. **Note: Do not use Ctrl+C to copy, use Right-click + "Copy"**
