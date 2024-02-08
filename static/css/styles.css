@@ -52,3 +52,24 @@ header h1 {
     margin: 10px;
 }
 
+.language-container, .extracurricular-training-container {
+    margin: 20px 300px;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    border-top: 1px solid #656565;
+}
+
+.spa, .grant {
+    margin-bottom: 0px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

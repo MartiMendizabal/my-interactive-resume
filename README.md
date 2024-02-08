@@ -4,8 +4,7 @@ This is a self-maneged proyect, to get hands-on with different programming langu
 ## Prerequisites
 
  - Python 3.11.2
- - Flask
- You can install it with the command `pip intall Flask`.
+ - Flask **You can install it with the command `pip intall Flask`.**
 
  ## Instalation
 
